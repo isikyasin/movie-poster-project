@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movies by Yasin</title>
+</head>
+<body>
+    <div class="container">
+        <h1>MOVIES BY YASİN</h1>
+        <div class="links home-page-links">
+            <button onclick="scrolldiv()" class="watchlist-link">WATCHLIST</button>
+            <select class="genres-home">
+                <option>All</option>
+                <option>movie</option>
+                <option>series</option>
+                <option>game</option>
+            </select>
+            <select class="sort-home">
+                <option>Alphabetical</option>
+                <option>Oldest First</option>
+                <option>Newest First</option>
+            </select>
+            <button class="sort sort-btn-home">SORT</button>    
+        </div>
+
+        <hr>
+        <h2>HOME PAGE</h2>
+        <hr>
+
+        <div class="home-page page-order"> 
+
+        </div>
+
+        <div class="links watchlist-links">
+            <button onclick="scrollhome()" class="home-link">HOME</button>
+            <select class="genres-watchlist">
+                <option>All</option>
+                <option>movie</option>
+                <option>series</option>
+                <option>game</option>
+            </select>
+            <select class="sort-watchlist">
+                <option>Alphabetical</option>
+                <option>Oldest First</option>
+                <option>Newest First</option>
+            </select>
+            <button class="sort sort-btn-watchlist">SORT</button> 
+        </div>
+
+        <hr>
+        <h2>WATCHLIST</h2>
+        <hr>
+
+        <div class="watchlist-page page-order">
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
